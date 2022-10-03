@@ -1,0 +1,81 @@
+<!doctype html>
+  <html>
+    <head>
+	  <style>
+	    *{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+		}
+		body{
+		background:#ecf0f1;
+		}
+		.accordian{
+		background:#fff;
+		width:40%;
+		margin:50px;
+		}
+		.acc-toggle{
+		display:none;
+		}
+		.acc-tab{
+		border-bottom:1px solid #ecf0f1;
+		}
+		label{
+		color:#fff;
+		background:#2980b9;
+		font-size:16px;
+		position:relative;
+		font-weight:bold;
+		line-height:24px;
+		display:block;
+		padding:12px 20px;
+		cursor:pointer;
+		}
+		.content{
+		max-height:0;
+		transition: all .5s linear;
+		overflow:hidden;
+		}
+		.acc-toggle:checked ~ .content{
+		max-height:100%;
+		}
+		
+		
+	  </style>
+	
+	</head>
+	
+	<body>
+	   <div class="accordian">
+	      <div class="acc-tab">
+		     <input type="checkbox" id="toggle1" name="toggle" class="acc-toggle">
+			 <label for="toggle1">Question One</label>
+			 <div class="content">
+			 In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may bder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may bningful content. Lorem ipsum may bder text commonly used to demonstrate the visual form of a document or a typeface without relying on meanin
+			 </div>
+			 
+		  </div>
+		  
+		  <div class="acc-tab">
+		     <input type="checkbox" id="toggle2" name="toggle" class="acc-toggle">
+			 <label for="toggle2">Question One</label>
+			 <div class="content">
+			 In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may bder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may bningful content. Lorem ipsum may bder text commonly used to demonstrate the visual form of a document or a typeface without relying on meanin
+			 </div>
+			 
+		  </div>
+		  
+		  <div class="acc-tab">
+		     <input type="checkbox" id="toggle3" name="toggle" class="acc-toggle">
+			 <label for="toggle3">Question One</label>
+			 <div class="content">
+			 In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may bder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may bningful content. Lorem ipsum may bder text commonly used to demonstrate the visual form of a document or a typeface without relying on meanin
+			 </div>
+			 
+		  </div>
+	   
+	   </div>
+	
+	</body>
+  </html>
